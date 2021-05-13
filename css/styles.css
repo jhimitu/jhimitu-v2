@@ -71,6 +71,10 @@ nav li a:hover {
     opacity: 1;
 }
 
+.logo {
+    display: none;
+}
+
 .hero {
     max-width: 1150px;
     margin: 0 auto;
@@ -147,10 +151,17 @@ footer p {
         grid-template-columns: 300px 1fr;
         grid-template-rows: 1fr auto;
     }
+    nav {
+        text-align: center;
+    }
     nav ul {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+    }
+    .logo {
+        display: initial;
+        width: 150px;
     }
     .sidebar {
         background: linear-gradient(
