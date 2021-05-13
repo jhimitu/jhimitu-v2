@@ -24,6 +24,7 @@ body {
 .footer {
     grid-area: footer;
     background: white;
+    margin-top: 45px;
 }
 
 .container {
