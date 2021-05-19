@@ -126,7 +126,8 @@ nav li a:hover {
 
 .card p {
     padding-bottom: 30px;
-    width: 330px;
+    width: 300px;
+    font-size: 18px;
 }
 .card p, .about-title {
     text-align: center;
