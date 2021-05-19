@@ -37,7 +37,7 @@ body {
         "content"
         "footer";
     grid-template-areas: 1fr;
-    grid-template-rows: 130px 800px 250px;
+    grid-template-rows: 130px auto 250px;
 }
 
 .content,
