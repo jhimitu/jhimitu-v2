@@ -7,7 +7,7 @@ body {
 
 .content {
     grid-area: content;
-    background: url(/img/background-shapes.png);
+    background: url(/img/spaced-shapdes.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
