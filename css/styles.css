@@ -154,8 +154,8 @@ nav li a:hover {
     margin: 20px;
     box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
     border-radius: 5px;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
 }
 
 .project-card img {
@@ -170,13 +170,14 @@ nav li a:hover {
 }
 
 .project-description p {
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
     font-size: 22px;
 }
 
 
 .row {
+    width: 350px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -295,12 +296,14 @@ footer p {
         border-radius: 50%;
     }
 
-    /* .project-card {
-        background-image: url(https://picsum.photos/200/300);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    } */
+    .row {
+        width: auto;
+    }
+
+    .column {
+        max-width: 30%;
+        margin: 0 4px;
+    }
 
     .project-card img {
         height: 250px;
