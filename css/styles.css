@@ -295,6 +295,9 @@ footer p {
     .card img {
         border-radius: 50%;
     }
+    .portfolio-title {
+        text-align: center;
+    }
 
     .row {
         width: auto;
